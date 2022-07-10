@@ -1,10 +1,11 @@
 """Teste jogo da velha"""
-import numpy as np
 import velha
 
 
-def test_existe_ganhador():
-    """Função que testa de existe algum vencedor"""
-    assert velha.check_win() == True
+def teste_resultado():
+    """testeando a função resultado, que torna 1 caso 'X' seja o vencedor,
+    2 caso o 'O' seja o vencedor e '0' no caso de empate"""
+    assert velha.resultado() == 1 or velha.resultado() == 2 or velha.resultado() == 0
+
 
 
