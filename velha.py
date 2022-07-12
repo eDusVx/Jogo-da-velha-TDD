@@ -59,7 +59,7 @@ def impossivel():
     return None
 
 
-board = np.array([[1, 2, 1], [1, 2, 2], [2, 1, 1]])
+board = np.array([[1, 1, 0], [0, 0, 0], [0, 0, 0]])
 print(f'{board[0]}\n{board[1]}\n{board[2]}')
 
 resultado()

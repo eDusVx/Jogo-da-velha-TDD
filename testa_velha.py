@@ -4,7 +4,10 @@ import velha
 
 def teste_checar_resultado():
     """testando a função que checa algum possível resultado do jogo no momento,
-    esta função roda a cada jogada e checa constantemente se há algum vencedor."""
+    esta função roda a cada jogada e checa constantemente se há algum vencedor.
+    OBS: Ela sempre vai passar nos testes, pois sempre há um resultado momentaneo,
+    que posteriormente é checado como resultado definitivo ou não
+    pelas demais funções do programa"""
     assert velha.checar_resultado() == 1 \
            or velha.checar_resultado() == 2 or velha.checar_resultado() == 0
 
