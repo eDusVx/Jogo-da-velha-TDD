@@ -23,8 +23,7 @@ def teste_resultado():
 
 
 def teste_indefinido():
-    """testando a função indefinido que retorna -1 se o resultado do jogo ainda está indefinido
-     ou None se já está definido.
+    """testando a função indefinido que retorna -1 se o resultado do jogo ainda está indefinido.
      Os testes foram feitos alterando o tabuleiro 'board' no arquivo velha.py,
     testes de exemplo:
     [1 0 0]  |  [1 2 0] |   [1 2 1] |   [2 0 0]
@@ -34,8 +33,7 @@ def teste_indefinido():
 
 
 def teste_impossivel():
-    """testando a função impossivel que retorna - 2 se o resultado do jogo é impossível
-    ou None se o resultado é possível ou indefinido.
+    """testando a função impossivel que retorna - 2 se o resultado do jogo é impossível.
     Os testes foram feitos alterando o tabuleiro 'board' no arquivo velha.py,
     testes de exemplo:
     [1 1 0]  |  [1 1 1] |   [2 2 2]
